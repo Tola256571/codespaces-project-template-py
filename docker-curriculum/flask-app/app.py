@@ -28,3 +28,12 @@ def index():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
+
+#if location:
+ #   weather_requester = WeatherRequester(location)
+  #  weather_requester.make_request()
+#else:
+ #   print("nie podano lokalizacji")
+
+#if __name__ == "__main__":
+ #   main()
