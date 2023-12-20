@@ -1,4 +1,4 @@
-from elasticsearch import Elasticsearch, exceptions
+#from elasticsearch import Elasticsearch, exceptions
 from flask import Flask, jsonify, request, render_template
 import os
 import random
