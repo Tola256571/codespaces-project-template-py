@@ -1,8 +1,8 @@
 # start from base
 FROM ubuntu:18.04
 
-MAINTAINER tola <256571@student.pwr.edu.pl>
-
+#MAINTAINER tola <256571@student.pwr.edu.pl>
+LABEL MAINTAINER="tola <256571@student.pwr.edu.pl>"
 # install system-wide deps for python and node
 RUN apt-get -yqq update
 RUN apt-get -yqq install python3-pip python3-dev curl gnupg
